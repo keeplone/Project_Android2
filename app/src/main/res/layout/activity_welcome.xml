@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.keeplone.project_android2.WelcomeActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pager">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layoutTab"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SKIP"
+            android:id="@+id/btSkip"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/btNext"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/indicator"
+        android:layout_above="@+id/layoutTab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        app:stl_indicatorColor = "#03A9F4"
+        app:stl_dividerThickness="0dp">
+
+    </com.ogaclejapan.smarttablayout.SmartTabLayout>
+
+</RelativeLayout>

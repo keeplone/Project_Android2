@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/b</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NavStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <color name="tab_select">#e3f2fd</color>
+    <color name="tab_text">#2c3e50</color>
+    <color name="tab_bg">#95a5a6</color>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/holo_blue_dark</item>
+    </style>
+
+</resources>

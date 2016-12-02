@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#34495e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="b">#2c3e50</color>
+
+    <color name="select_blue">#E3F2FD</color>
+    <color name="txt_grey">#566573</color>
+    <color name="grey">#78909C</color>
+
+    <color name="blue_pressed">@android:color/holo_blue_dark</color>
+    <color name="blue_normal">@android:color/holo_blue_light</color>
+
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+
+</resources>

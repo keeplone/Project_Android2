@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_1"
+            android:icon="@drawable/fit"
+            android:title="Workout" />
+
+        <item
+            android:id="@+id/menu_2"
+            android:icon="@drawable/kcal"
+            android:title="Food Dairy" />
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item android:title="Calculate">
+        <menu>
+            <item
+                android:id="@+id/menu_3"
+                android:icon="@drawable/bmi"
+                android:title="BMI" />
+
+            <item
+                android:id="@+id/menu_4"
+                android:icon="@drawable/weightlossicon"
+                android:title="Weight Loss" />
+
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Other">
+            <menu>
+            <item
+                android:id="@+id/menu_5"
+                android:icon="@drawable/about"
+                android:title="About"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
